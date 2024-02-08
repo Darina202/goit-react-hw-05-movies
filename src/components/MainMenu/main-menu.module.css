@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  gap: 28px;
+  padding: 16px 100px;
+  list-style-type: none;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+
+.link:global(.active) {
+  color: red;
+}

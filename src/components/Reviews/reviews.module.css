@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  list-style-type: none;
+}
+.item {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.author {
+  margin-bottom: 8px;
+}
+.text {
+  text-align: center;
+}
